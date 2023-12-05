@@ -1,10 +1,10 @@
 import React from "react";
 import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
-import "./Footer.css";
+import "./Footer";
 import { FooterOverlay, Newsletter } from "../../components";
 import { images } from "../../constants";
 
-const Footer = () => {
+const Foot = () => {
   return (
     <section className="app__footer section__padding">
       <FooterOverlay />
@@ -49,4 +49,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Foot;
